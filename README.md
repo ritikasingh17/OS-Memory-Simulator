@@ -1,1 +1,3 @@
 # OS-Memory-Simulator
+
+This project simulates an operating system's memory management, implemented in Java, focusing on translating logical addresses to physical memory locations. The simulation involves key components such as frames (physical memory blocks), page tables, and a Translation Lookaside Buffer (TLB) to optimize address lookups. The system includes a page eviction strategy using Least Recently Accessed (LRA) for memory management and Least Recently Used (LRU) for TLB entries. Through this, the project models the behavior of memory allocation, address translation, and memory access performance in a simulated OS environment.
